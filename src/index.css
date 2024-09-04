@@ -12,6 +12,6 @@
     }
 
     .button_effect{
-        @apply inline-flex text-center pl-2 py-1 pr-4 uppercase font-bold rounded-xl bg-green-300 hover:bg-green-500 active:-translate-y-1 text-black justify-center items-center gap-3 transition-all duration-300 hover:scale-95
+        @apply inline-flex text-center pl-2 py-1 pr-4 uppercase font-bold rounded-md bg-green-300 hover:bg-green-500 active:-translate-y-1 text-black justify-center items-center gap-3 transition-all duration-300 hover:scale-95
     }
 }

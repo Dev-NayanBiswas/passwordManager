@@ -37,4 +37,57 @@ export default {
 1. 
 2. 
 
+### Icons
 
+doc = lord-icon
+    src="https://cdn.lordicon.com/lewtedlh.json"
+    trigger="hover"
+    stroke="light"
+    state="hover-pinch"
+    colors="primary:#3080e8,secondary:#b4b4b4"
+    style="width:250px;height:250px">
+    </lord-icon
+
+email-filled = src="https://media.lordicon.com/icons/system/solid/190-mail-envelope-open.json"
+email-outline = src="https://media.lordicon.com/icons/system/regular/190-mail-envelope-open.json"
+
+
+pen-filled = src="https://media.lordicon.com/icons/system/solid/114-edit-pencil-rename.json"
+pen-outline = src="https://media.lordicon.com/icons/system/regular/114-edit-pencil-rename.json"
+
+email-close = src="https://media.lordicon.com/icons/system/solid/191-mail-envelope-close.json"
+
+### Toastify
+
+-> npm install --save react-toastify
+
+ import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+  import { Slide, Zoom, Flip, Bounce } from 'react-toastify';
+***
+toast.success(`👍 ${data} Copied Successfully !`, {
+            position: "top-center",
+            autoClose: 1000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            transition:Flip
+            });
+***
+  ToastContainer
+                position="topRight"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+                transition={Flip}
+            />
+***
